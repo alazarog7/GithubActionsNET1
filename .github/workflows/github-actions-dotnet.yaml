@@ -13,6 +13,6 @@ jobs:
       - BUILD_CONFIGURATION: Release
       - PROJECT_PATH: MyApp
       - PRJECT_TEST_PATH: MyApp.Tests/MyApp.Tests
-steps:
-  - name: Checkout branch
-    uses: actions/checkout@v2
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
