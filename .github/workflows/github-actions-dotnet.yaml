@@ -28,4 +28,7 @@ jobs:
         working-directory: "${{env.PROJECT_PATH}}"
       - name: Run unit tests
         run: dotnet test ${{env.PROJECT_TEST_PATH}}
+      - name: List commands used
+        run: |
+          history
       
