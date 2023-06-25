@@ -15,4 +15,8 @@ jobs:
       PROJECT_TEST_PATH: MyApp.Tests/MyApp.Tests
     steps:
       - name: Checkout branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2ç
+      - name: Set up .NET Core version code ('${{ env.DOTNET_VERSION }}')
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: (${{ env.DOTNET_VERSION }})
