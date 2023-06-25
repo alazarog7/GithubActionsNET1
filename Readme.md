@@ -1,0 +1,1 @@
+[![Github Actions Dotnet](https://github.com/alazarog7/GithubActionsNET1/actions/workflows/github-actions-dotnet.yaml/badge.svg)](https://github.com/alazarog7/GithubActionsNET1/actions/workflows/github-actions-dotnet.yaml)
