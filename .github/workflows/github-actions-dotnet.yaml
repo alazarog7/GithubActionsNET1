@@ -26,3 +26,6 @@ jobs:
       - name: Build Package
         run: dotnet build --configuration ${{env.BUILD_CONFIGURATION}}
         working-directory: "${{env.PROJECT_PATH}}"
+      - name: Run unit tests
+        run: dotnet test ${{env.PROJECT_TEST_PATH}}
+      
